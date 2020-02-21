@@ -32,12 +32,25 @@ button {
     font-size: 100%;
 }
 
-
-.formTooltip {
+/* #queroAjudarToggle {
     position: relative;
-    color: #333;
+} */
+#formTooltip {
+    position: relative;
+    display: flex;
+    visibility: visible;
+    width: 120px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #0000009a;
+    color: white;
     font-size: 10px;
-    top: 30px;
+    top: 10px;
+    transition: all 400ms;
 }
 .tooltipHide {
     opacity: 0;
